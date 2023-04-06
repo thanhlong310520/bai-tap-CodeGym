@@ -108,13 +108,9 @@ namespace Bai9_HienThiCacLoaiHinh
         }
         static void IsoscelesTriangle()
         {
-            Console.Write("nhap do dai canh(do dai canh le): ");
+            Console.Write("nhap do dai canh: ");
             int dodai = int.Parse(Console.ReadLine());
-            while(dodai%2 == 0)
-            {
-                Console.Write("again: ");
-                dodai = int.Parse(Console.ReadLine());
-            }
+            
             for (int i = 0; i < dodai; i++)
             {
                 for (int j = 0; j <= dodai+i; j++)
